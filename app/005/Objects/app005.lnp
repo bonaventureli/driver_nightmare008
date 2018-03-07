@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\app.o"
+".\objects\buttonsconfig.o"
+".\objects\can_config.o"
+".\objects\card_config.o"
+".\objects\ledconfig.o"
+".\objects\buttons_nightmare.o"
+".\objects\main.o"
+".\objects\rdm6300_nightmare.o"
+".\objects\common.o"
+".\objects\mp230_nightmare.o"
+".\objects\led_nightmare.o"
+".\objects\rtx_conf_cm.o"
+"d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib"
+".\objects\can_stm32f10x.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\system_stm32f10x.o"
+".\objects\misc.o"
+".\objects\stm32f10x_can.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_usart.o"
+".\objects\gpio_stm32f10x.o"
+--strict --scatter ".\Objects\app005.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\app005.map" -o .\Objects\app005.axf
